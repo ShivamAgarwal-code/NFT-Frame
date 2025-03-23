@@ -7,7 +7,7 @@ export const getIsSaleActive = async (startDate: BigInt, endDate: BigInt) => {
   const now = new Date();
   const start = new Date(Number(startDate));
   const end = new Date(Number(endDate));
-  const mid = new Date(Number(endDate));
+  const mid = new Date(Number(midDate));
 
   return now >= start && now <= end;
 };
