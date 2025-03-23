@@ -1,3 +1,5 @@
+"use client";
+
 import { zoraERC1155Abi } from "@/abi/zoraERC1155Abi";
 import MintZora1155 from "@/app/components/onPage/MintZora1155";
 import Zora1155TokenDetails from "@/app/components/onPage/Zora1155TokenDetails";
