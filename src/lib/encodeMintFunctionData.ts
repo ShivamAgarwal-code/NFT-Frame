@@ -5,6 +5,7 @@ export const encodeMintFunctionData = async (
   accountAddress: string,
   contractAddress: string,
   mintQuantity: number,
+  address: number,
   tokenId?: number
 ) => {
   // if (tokenId) {
