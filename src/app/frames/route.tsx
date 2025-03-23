@@ -1,3 +1,5 @@
+"use client";
+
 import { FrameActionPayload, getFrame } from "frames.js";
 import { type NextRequest } from "next/server";
 import { getAction } from "../actions/getAction";
