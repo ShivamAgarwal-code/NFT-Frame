@@ -1,6 +1,6 @@
 import { getCollectorClient } from "@/lib/zoraClient";
 import { MintCosts } from "@zoralabs/protocol-sdk";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo, useRef } from "react";
 
 export const useGetZora1155MintCosts = (
   contractAddress: `0x${string}`,
